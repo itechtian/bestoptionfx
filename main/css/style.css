@@ -591,13 +591,15 @@ nav .btn-primary, .account-section .btn-primary {
 .briefx {
     background-color: #000;
     background: linear-gradient(320deg, #091731de,#000000dc 95%) no-repeat;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/atradingchartview.jpeg);
     color: white;
     text-shadow: 1px 1px 2px black;
     position: relative;
     height: 100vh;
     max-height: 100vh;
     overflow-y: scroll;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
@@ -667,7 +669,7 @@ nav .btn-primary, .account-section .btn-primary {
 }
 
 .invbox .content h2 {
-    color: #d37e85;
+    color: #ea6924;
 }
 
 .invbox .content .paragraph {
@@ -675,7 +677,7 @@ nav .btn-primary, .account-section .btn-primary {
 }
 
 .invbox .content .medium {
-    color: #fe5564;
+    color: #ea6924;
 }
 
 .invbox .image img {
@@ -727,7 +729,7 @@ nav .btn-primary, .account-section .btn-primary {
 
 
 .price {
-    background: linear-gradient(-225deg, #d37e85 0%, #fe6472 53%, #fe5564 100%);
+    background: linear-gradient(-225deg, #ea6924 0%, #ea6924 53%, #ea6924 100%);
     color: #fff;
     font-size: 1.5em;
     font-weight: 400;
@@ -881,7 +883,7 @@ input[type="radio"] {
     position: absolute;
     white-space: nowrap;
     width: 1px;
-    background-color: #fe5564;
+    background-color: #ea6924;
     color: white;
 }
 
@@ -889,7 +891,7 @@ input[type="radio"] {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
         background-color: #ffeeee;
         z-index: 1;
-        color: #fe6472;
+        color: #ea6924;
     }
 
 fieldset label span {
@@ -932,7 +934,7 @@ fieldset label:last-child span {
 }
 
     .footer a {
-        color: #fe6472;
+        color: #ea6924;
     }
 
         .footer a:hover {
@@ -1087,8 +1089,10 @@ fieldset label:last-child span {
         text-align: center;
         width: fit-content;
         background-color: #11254A;
-        outline: 2px solid #d37e85;
+        outline: 2px solid #ea6924;
     }
+
+ 
 
 
 
@@ -1148,7 +1152,7 @@ div.horizontal-scroll-wrapper {
 
 /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
-    background: linear-gradient(90deg, #fe5564,#d37e85);
+    background: linear-gradient(90deg, #ea6924,#ea6924);
     color: white;
     padding: 0;
     border: none;
@@ -1216,7 +1220,7 @@ div.horizontal-scroll-wrapper {
 
             /* When the textarea gets focus, do something */
             .chat-popup .form-container textarea:focus, .chat-popup .form-container .form-control-sm:focus {
-                border-color: #d37e85;
+                border-color: #ea6924;
                 outline: none;
             }
 
@@ -1234,7 +1238,7 @@ div.horizontal-scroll-wrapper {
 
         /* Add a red background color to the cancel button */
         .chat-popup .form-container .cancel {
-            background-color: #fe5564;
+            background-color: #ea6924;
             height: 35px;
             width: 35px;
             position: absolute;
@@ -1278,7 +1282,7 @@ div.horizontal-scroll-wrapper {
         bottom: 7px;
         width: 80%;
         margin-left: 10%;
-        background-color: #fe5564;
+        background-color: #ea6924;
         border-radius: 30px;
         text-align:center;
         display:flex;
